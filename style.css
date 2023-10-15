@@ -73,7 +73,11 @@ button {
 .award > h1 {
   font-size: 55px;
   font-weight: 500;
-  margin-right: 5rem;
+  margin-right: 7rem;
+}
+.award > p {
+  margin-left: 3rem;
+  padding: 0;
 }
 .award-img img {
   width: 100vh;
