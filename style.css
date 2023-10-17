@@ -45,6 +45,9 @@ button {
   flex-direction: column;
   gap: 2rem;
 }
+.banner-content p {
+  color: rgb(108, 108, 105);
+}
 .banner-content h1 {
   font-size: 60px;
   font-weight: 500;
@@ -68,7 +71,6 @@ button {
   margin-top: 4rem;
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
 }
 .award > h1 {
   font-size: 55px;
@@ -76,9 +78,20 @@ button {
   margin-right: 7rem;
 }
 .award > p {
-  margin-left: 3rem;
-  padding: 0;
+  margin-left: 5rem;
+  padding-left: 10rem;
 }
-.award-img img {
+.award-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.award-img {
   width: 100vh;
+}
+.award-cnt {
+  color: rgb(108, 108, 105);
+  padding: 1rem;
+  margin: 1rem;
 }
