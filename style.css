@@ -95,3 +95,18 @@ button {
   padding: 1rem;
   margin: 1rem;
 }
+.room {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.room div {
+  border-right: 2px black solid;
+  background-color: blueviolet;
+  height: 20rem;
+}
+.room h3 {
+  transform: rotate(-90deg);
+  padding: 3rem;
+  margin: 2rem;
+  text-align: start;
+}
