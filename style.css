@@ -97,16 +97,38 @@ button {
 }
 .room {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 6rem;
 }
+
 .room div {
   border-right: 2px black solid;
-  background-color: blueviolet;
-  height: 20rem;
+  background-color: rgb(231, 227, 235);
+  height: 100vh;
 }
 .room h3 {
   transform: rotate(-90deg);
-  padding: 3rem;
-  margin: 2rem;
+  padding-top: 1rem;
+  margin-top: 13rem;
   text-align: start;
+}
+.room-img {
+  background: url("https://images.unsplash.com/photo-1564078516393-cf04bd966897?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.room-img div {
+  background-color: white;
+  height: auto;
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+}
+.room-info p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.room-info h2 {
+  font-weight: 400;
+  font-size: 23px;
 }
