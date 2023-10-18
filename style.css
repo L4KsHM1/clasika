@@ -99,6 +99,7 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 6rem;
+  margin-bottom: 4rem;
 }
 
 .room div {
@@ -131,4 +132,47 @@ button {
 .room-info h2 {
   font-weight: 400;
   font-size: 23px;
+}
+.modern {
+  padding: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modern > h1 {
+  font-size: 50px;
+  font-weight: 500;
+  /* margin-right: 10rem; */
+}
+.modern-img {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+.modern-img img {
+  width: 50%;
+}
+.contact {
+  background-color: rgb(231, 227, 235);
+  padding: 3rem;
+}
+.contact h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.contact h1 {
+  font-size: 65px;
+  font-weight: 500;
+}
+.contact-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.contact-btn button {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 30px;
 }
