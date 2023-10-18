@@ -146,11 +146,14 @@ button {
 }
 .modern-img {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
   margin-bottom: 5rem;
+  margin-left: 5rem;
+  margin-right: 1rem;
+  /* padding: 2rem; */
 }
 .modern-img img {
-  width: 50%;
+  width: 45%;
 }
 .contact {
   background-color: rgb(231, 227, 235);
@@ -210,4 +213,11 @@ button {
   justify-content: space-between;
   align-items: start;
   gap: 3rem;
+}
+footer {
+  background-color: rgb(181, 185, 189);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  color: rgb(67, 60, 60);
 }
