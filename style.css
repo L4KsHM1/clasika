@@ -176,3 +176,38 @@ button {
   padding: 1rem;
   border-radius: 30px;
 }
+.cmpny-links {
+  margin-top: 4rem;
+  display: flex;
+  gap: 20rem;
+  justify-content: space-between;
+}
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.company a {
+  color: rgb(83, 80, 80);
+}
+.company h4 {
+  color: black;
+}
+#input {
+  padding: 1rem;
+  border-radius: 30px;
+  border: 2px solid rgb(131, 123, 123);
+  color: rgb(147, 137, 137);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.updates p {
+  color: rgb(147, 137, 137);
+}
+.cmpny {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 3rem;
+}
